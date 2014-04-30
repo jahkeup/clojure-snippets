@@ -1,4 +1,4 @@
 #name: ns
 # --
-(ns `(replace-regexp-in-string "^clj\\." "" (clojure-expected-ns))`
+(ns `(replace-regexp-in-string "^cljs?\\." "" (clojure-expected-ns))`
   $0)
